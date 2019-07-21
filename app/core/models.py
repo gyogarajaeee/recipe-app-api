@@ -3,8 +3,9 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, \
                                         PermissionsMixin
 # Create your models here.
 
+
 class UserManager(BaseUserManager):
-    
+
     def create_user(self, email, password=None, **extra_fields):
         if not email:
             raise ValueError('User must have an email address')
@@ -20,7 +21,8 @@ class UserManager(BaseUserManager):
         user.is_staff = True
         user.save(using=self._db)
         return user
-        
+
+
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
