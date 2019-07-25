@@ -1,0 +1,211 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../app/core/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_tag.py	../app/core/migrations/0002_tag.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../app/app/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+APIClient	../app/recipe/tests/test_tags_api.py	/^from rest_framework.test import APIClient$/;"	kind:namespace	line:6
+APIClient	../app/user/tests/test_user_api.py	/^from rest_framework.test import APIClient$/;"	kind:namespace	line:5
+AUTH_PASSWORD_VALIDATORS	../app/app/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:95
+AUTH_USER_MODEL	../app/app/settings.py	/^AUTH_USER_MODEL = 'core.User'/;"	kind:variable	line:130
+AbstractBaseUser	../app/core/models.py	/^                                        PermissionsMixin$/;"	kind:namespace	line:3
+AdminSiteTests	../app/core/tests/test_admin.py	/^class AdminSiteTests(TestCase):$/;"	kind:class	line:6
+AppConfig	../app/core/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../app/recipe/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../app/user/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AuthTokenSerializer	../app/user/serializers.py	/^class AuthTokenSerializer(serializers.Serializer):$/;"	kind:class	line:18
+AuthTokenSerializer	../app/user/views.py	/^from user.serializers import UserSerializer, AuthTokenSerializer$/;"	kind:namespace	line:5
+BASE_DIR	../app/app/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BaseCommand	../app/core/management/commands/wait_for_db.py	/^from django.core.management.base import BaseCommand$/;"	kind:namespace	line:4
+BaseUserAdmin	../app/core/admin.py	/^from django.contrib.auth.admin import UserAdmin as BaseUserAdmin$/;"	kind:namespace	line:2
+BaseUserManager	../app/core/models.py	/^                                        PermissionsMixin$/;"	kind:namespace	line:3
+CREATE_USER_URL	../app/user/tests/test_user_api.py	/^CREATE_USER_URL = reverse('user:create')$/;"	kind:variable	line:8
+Client	../app/core/tests/test_admin.py	/^from django.test import TestCase, Client$/;"	kind:namespace	line:1
+Command	../app/core/management/commands/wait_for_db.py	/^class Command(BaseCommand):$/;"	kind:class	line:7
+CommandTests	../app/core/tests/test_command.py	/^class CommandTests(TestCase):$/;"	kind:class	line:8
+CoreConfig	../app/core/apps.py	/^class CoreConfig(AppConfig):$/;"	kind:class	line:4
+CreateAuthTokenView	../app/user/views.py	/^class CreateAuthTokenView(ObtainAuthToken):$/;"	kind:class	line:13
+CreateUserView	../app/user/views.py	/^class CreateUserView(generics.CreateAPIView):$/;"	kind:class	line:8
+DATABASES	../app/app/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	../app/app/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../app/app/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../app/app/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:114
+MIDDLEWARE	../app/app/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:47
+Meta	../app/user/serializers.py	/^    class Meta:$/;"	kind:class	line:8
+Migration	../app/core/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../app/core/migrations/0002_tag.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ModelTests	../app/core/tests/test_models.py	/^class ModelTests(TestCase):$/;"	kind:class	line:9
+ObtainAuthToken	../app/user/views.py	/^from rest_framework.authtoken.views import ObtainAuthToken$/;"	kind:namespace	line:2
+OperationalError	../app/core/management/commands/wait_for_db.py	/^from django.db.utils import OperationalError$/;"	kind:namespace	line:3
+OperationalError	../app/core/tests/test_command.py	/^from django.db.utils import OperationalError$/;"	kind:namespace	line:4
+PermissionsMixin	../app/core/models.py	/^                                        PermissionsMixin$/;"	kind:namespace	line:3
+PublicUserAPITest	../app/user/tests/test_user_api.py	/^class PublicUserAPITest(TestCase):$/;"	kind:class	line:16
+ROOT_URLCONF	../app/app/settings.py	/^ROOT_URLCONF = 'app.urls'$/;"	kind:variable	line:57
+RecipeConfig	../app/recipe/apps.py	/^class RecipeConfig(AppConfig):$/;"	kind:class	line:4
+SECRET_KEY	../app/app/settings.py	/^SECRET_KEY = '055i)$s(8ujf8ef-=9w^r&x2t3ucuom5lxs(m!-u@40le!=m0$'$/;"	kind:variable	line:23
+STATIC_URL	../app/app/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:128
+SetUp	../app/user/tests/test_user_api.py	/^    def SetUp(self):$/;"	kind:member	line:19
+TEMPLATES	../app/app/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:59
+TIME_ZONE	../app/app/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:116
+TOKEN_URL	../app/user/tests/test_user_api.py	/^TOKEN_URL = reverse('user:token')$/;"	kind:variable	line:9
+Tag	../app/core/models.py	/^class Tag(models.Model):$/;"	kind:class	line:38
+TestCase	../app/core/tests/test_admin.py	/^from django.test import TestCase, Client$/;"	kind:namespace	line:1
+TestCase	../app/core/tests/test_command.py	/^from django.test import TestCase$/;"	kind:namespace	line:5
+TestCase	../app/core/tests/test_models.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../app/recipe/tests/test_tags_api.py	/^from django.test import TestCase$/;"	kind:namespace	line:3
+TestCase	../app/user/tests/test_user_api.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USERNAME_FIELD	../app/core/models.py	/^    USERNAME_FIELD = 'email'$/;"	kind:variable	line:35
+USE_I18N	../app/app/settings.py	/^USE_I18N = True$/;"	kind:variable	line:118
+USE_L10N	../app/app/settings.py	/^USE_L10N = True$/;"	kind:variable	line:120
+USE_TZ	../app/app/settings.py	/^USE_TZ = True$/;"	kind:variable	line:122
+User	../app/core/models.py	/^class User(AbstractBaseUser, PermissionsMixin):$/;"	kind:class	line:27
+UserAdmin	../app/core/admin.py	/^class UserAdmin(BaseUserAdmin):$/;"	kind:class	line:8
+UserConfig	../app/user/apps.py	/^class UserConfig(AppConfig):$/;"	kind:class	line:4
+UserManager	../app/core/models.py	/^class UserManager(BaseUserManager):$/;"	kind:class	line:8
+UserSerializer	../app/user/serializers.py	/^class UserSerializer(serializers.ModelSerializer):$/;"	kind:class	line:6
+UserSerializer	../app/user/views.py	/^from user.serializers import UserSerializer, AuthTokenSerializer$/;"	kind:namespace	line:5
+WSGI_APPLICATION	../app/app/settings.py	/^WSGI_APPLICATION = 'app.wsgi.application'$/;"	kind:variable	line:75
+_	../app/core/admin.py	/^from django.utils.translation import gettext as _$/;"	kind:namespace	line:3
+_	../app/user/serializers.py	/^from django.utils.translation import ugettext_lazy as _$/;"	kind:namespace	line:3
+__init__.py	../app/app/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/core/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/core/management/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/core/management/commands/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/core/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/core/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/recipe/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/recipe/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/user/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/user/tests/__init__.py	1;"	kind:file	line:1
+__str__	../app/core/models.py	/^    def __str__(self):$/;"	kind:member	line:46
+add_fieldsets	../app/core/admin.py	/^    add_fieldsets = ($/;"	kind:variable	line:20
+admin	../app/app/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin	../app/core/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin.py	../app/core/admin.py	1;"	kind:file	line:1
+api_settings	../app/user/views.py	/^from rest_framework.settings import api_settings$/;"	kind:namespace	line:3
+app_name	../app/user/urls.py	/^app_name = 'user'$/;"	kind:variable	line:4
+application	../app/app/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../app/core/apps.py	1;"	kind:file	line:1
+apps.py	../app/recipe/apps.py	1;"	kind:file	line:1
+apps.py	../app/user/apps.py	1;"	kind:file	line:1
+authenticate	../app/user/serializers.py	/^from django.contrib.auth import get_user_model, authenticate$/;"	kind:namespace	line:1
+call_command	../app/core/tests/test_command.py	/^from django.core.management import call_command$/;"	kind:namespace	line:3
+connections	../app/core/management/commands/wait_for_db.py	/^from django.db import connections$/;"	kind:namespace	line:2
+create	../app/user/serializers.py	/^    def create(self, validated_data):$/;"	kind:member	line:13
+create_superuser	../app/core/models.py	/^    def create_superuser(self, email, password):$/;"	kind:member	line:18
+create_user	../app/core/models.py	/^    def create_user(self, email, password=None, **extra_fields):$/;"	kind:member	line:10
+create_user	../app/user/tests/test_user_api.py	/^def create_user(**param):$/;"	kind:function	line:12
+db	../app/core/migrations/0002_tag.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+deletion	../app/core/migrations/0002_tag.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+dependencies	../app/core/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../app/core/migrations/0002_tag.py	/^    dependencies = [$/;"	kind:variable	line:10
+django	../app/core/migrations/0002_tag.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+email	../app/core/models.py	/^    email = models.EmailField(max_length=255, unique=True)$/;"	kind:variable	line:28
+email	../app/user/serializers.py	/^    email = serializers.CharField()$/;"	kind:variable	line:20
+execute_from_command_line	../app/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:10
+extra_kwargs	../app/user/serializers.py	/^        extra_kwargs = {'password': {'write_only': True, 'min_length': 5}}$/;"	kind:variable	line:11
+fields	../app/core/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:17
+fields	../app/core/migrations/0002_tag.py	/^            fields=[$/;"	kind:variable	line:17
+fields	../app/user/serializers.py	/^        fields = ('email', 'password', 'name')$/;"	kind:variable	line:10
+fieldsets	../app/core/admin.py	/^    fieldsets = ($/;"	kind:variable	line:11
+generics	../app/user/views.py	/^from rest_framework import generics$/;"	kind:namespace	line:1
+get_user_model	../app/core/tests/test_admin.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_user_model	../app/core/tests/test_models.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_user_model	../app/recipe/tests/test_tags_api.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:1
+get_user_model	../app/user/serializers.py	/^from django.contrib.auth import get_user_model, authenticate$/;"	kind:namespace	line:1
+get_user_model	../app/user/tests/test_user_api.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_wsgi_application	../app/app/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+handle	../app/core/management/commands/wait_for_db.py	/^    def handle(self, *args, **kwargs):$/;"	kind:member	line:9
+include	../app/app/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+initial	../app/core/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+is_active	../app/core/models.py	/^    is_active = models.BooleanField(default=True)$/;"	kind:variable	line:30
+is_staff	../app/core/models.py	/^    is_staff = models.BooleanField(default=False)$/;"	kind:variable	line:31
+list_display	../app/core/admin.py	/^    list_display = ["email", "name"]$/;"	kind:variable	line:10
+main	../app/manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../app/manage.py	1;"	kind:file	line:1
+migrations	../app/core/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+migrations	../app/core/migrations/0002_tag.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+model	../app/user/serializers.py	/^        model = get_user_model()$/;"	kind:variable	line:9
+models	../app/core/admin.py	/^from core import models$/;"	kind:namespace	line:5
+models	../app/core/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../app/core/migrations/0002_tag.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+models	../app/core/migrations/0002_tag.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+models	../app/core/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../app/core/tests/test_models.py	/^from core import models$/;"	kind:namespace	line:3
+models.py	../app/core/models.py	1;"	kind:file	line:1
+name	../app/core/apps.py	/^    name = 'core'$/;"	kind:variable	line:5
+name	../app/core/migrations/0001_initial.py	/^            name='User',$/;"	kind:variable	line:16
+name	../app/core/migrations/0002_tag.py	/^            name='Tag',$/;"	kind:variable	line:16
+name	../app/core/models.py	/^    name = models.CharField(max_length=255)$/;"	kind:variable	line:29
+name	../app/core/models.py	/^    name = models.CharField(max_length=255)$/;"	kind:variable	line:40
+name	../app/recipe/apps.py	/^    name = 'recipe'$/;"	kind:variable	line:5
+name	../app/user/apps.py	/^    name = 'user'$/;"	kind:variable	line:5
+objects	../app/core/models.py	/^    objects = UserManager()$/;"	kind:variable	line:33
+on_delete	../app/core/models.py	/^        on_delete=models.CASCADE$/;"	kind:variable	line:43
+operations	../app/core/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../app/core/migrations/0002_tag.py	/^    operations = [$/;"	kind:variable	line:14
+options	../app/core/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:29
+ordering	../app/core/admin.py	/^    ordering = ["id"]$/;"	kind:variable	line:9
+os	../app/app/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../app/app/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../app/manage.py	/^import os$/;"	kind:namespace	line:3
+password	../app/user/serializers.py	/^    password = serializers.CharField($/;"	kind:variable	line:21
+patch	../app/core/tests/test_command.py	/^from unittest.mock import patch$/;"	kind:namespace	line:1
+path	../app/app/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+path	../app/user/urls.py	/^from django.urls import path$/;"	kind:namespace	line:1
+render	../app/recipe/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+renderer_classes	../app/user/views.py	/^    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES$/;"	kind:variable	line:16
+reverse	../app/core/tests/test_admin.py	/^from django.urls import reverse$/;"	kind:namespace	line:3
+reverse	../app/recipe/tests/test_tags_api.py	/^from django.urls import reverse$/;"	kind:namespace	line:2
+reverse	../app/user/tests/test_user_api.py	/^from django.urls import reverse$/;"	kind:namespace	line:3
+sample_user	../app/core/tests/test_models.py	/^def sample_user(email='yoga@test.com', password='test123'):$/;"	kind:function	line:5
+serializer_class	../app/user/views.py	/^    serializer_class = AuthTokenSerializer$/;"	kind:variable	line:15
+serializer_class	../app/user/views.py	/^    serializer_class = UserSerializer$/;"	kind:variable	line:10
+serializers	../app/user/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:2
+serializers.py	../app/user/serializers.py	1;"	kind:file	line:1
+setUp	../app/core/tests/test_admin.py	/^    def setUp(self):$/;"	kind:member	line:7
+settings	../app/core/migrations/0002_tag.py	/^from django.conf import settings$/;"	kind:namespace	line:3
+settings	../app/core/models.py	/^from django.conf import settings$/;"	kind:namespace	line:4
+settings.py	../app/app/settings.py	1;"	kind:file	line:1
+status	../app/recipe/tests/test_tags_api.py	/^from rest_framework import status$/;"	kind:namespace	line:5
+status	../app/user/tests/test_user_api.py	/^from rest_framework import status$/;"	kind:namespace	line:6
+style	../app/user/serializers.py	/^        style={"input_type": 'password'},$/;"	kind:variable	line:22
+sys	../app/manage.py	/^import sys$/;"	kind:namespace	line:4
+test_admin.py	../app/core/tests/test_admin.py	1;"	kind:file	line:1
+test_command.py	../app/core/tests/test_command.py	1;"	kind:file	line:1
+test_create_super_user	../app/core/tests/test_models.py	/^    def test_create_super_user(self):$/;"	kind:member	line:34
+test_create_token_for_user	../app/user/tests/test_user_api.py	/^    def test_create_token_for_user(self):$/;"	kind:member	line:54
+test_create_token_invalid_credentials	../app/user/tests/test_user_api.py	/^    def test_create_token_invalid_credentials(self):$/;"	kind:member	line:63
+test_create_token_missing_field	../app/user/tests/test_user_api.py	/^    def test_create_token_missing_field(self):$/;"	kind:member	line:84
+test_create_token_no_user	../app/user/tests/test_user_api.py	/^    def test_create_token_no_user(self):$/;"	kind:member	line:74
+test_create_user_page	../app/core/tests/test_admin.py	/^    def test_create_user_page(self):$/;"	kind:member	line:35
+test_create_user_with_email_successfull	../app/core/tests/test_models.py	/^    def test_create_user_with_email_successfull(self):$/;"	kind:member	line:11
+test_create_valid_user_success	../app/user/tests/test_user_api.py	/^    def test_create_valid_user_success(self):$/;"	kind:member	line:22
+test_models.py	../app/core/tests/test_models.py	1;"	kind:file	line:1
+test_new_user_invalid_email	../app/core/tests/test_models.py	/^    def test_new_user_invalid_email(self):$/;"	kind:member	line:29
+test_password_too_short	../app/user/tests/test_user_api.py	/^    def test_password_too_short(self):$/;"	kind:member	line:43
+test_tag_str	../app/core/tests/test_models.py	/^    def test_tag_str(self):$/;"	kind:member	line:43
+test_tags_api.py	../app/recipe/tests/test_tags_api.py	1;"	kind:file	line:1
+test_user_api.py	../app/user/tests/test_user_api.py	1;"	kind:file	line:1
+test_user_change_page	../app/core/tests/test_admin.py	/^    def test_user_change_page(self):$/;"	kind:member	line:28
+test_user_email_is_normalized	../app/core/tests/test_models.py	/^    def test_user_email_is_normalized(self):$/;"	kind:member	line:22
+test_user_exists	../app/user/tests/test_user_api.py	/^    def test_user_exists(self):$/;"	kind:member	line:35
+test_users_listed	../app/core/tests/test_admin.py	/^    def test_users_listed(self):$/;"	kind:member	line:20
+test_wait_for_db	../app/core/tests/test_command.py	/^    def test_wait_for_db(self, ts):$/;"	kind:member	line:18
+test_wait_for_db_ready	../app/core/tests/test_command.py	/^    def test_wait_for_db_ready(self):$/;"	kind:member	line:10
+time	../app/core/management/commands/wait_for_db.py	/^import time$/;"	kind:namespace	line:1
+trim_whitespace	../app/user/serializers.py	/^        trim_whitespace=False$/;"	kind:variable	line:23
+urlpatterns	../app/app/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../app/user/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urls.py	../app/app/urls.py	1;"	kind:file	line:1
+urls.py	../app/user/urls.py	1;"	kind:file	line:1
+user	../app/core/models.py	/^    user = models.ForeignKey($/;"	kind:variable	line:41
+validate	../app/user/serializers.py	/^    def validate(self, attrs):$/;"	kind:member	line:26
+views	../app/user/urls.py	/^from user import views$/;"	kind:namespace	line:2
+views.py	../app/recipe/views.py	1;"	kind:file	line:1
+views.py	../app/user/views.py	1;"	kind:file	line:1
+wait_for_db.py	../app/core/management/commands/wait_for_db.py	1;"	kind:file	line:1
+wsgi.py	../app/app/wsgi.py	1;"	kind:file	line:1
